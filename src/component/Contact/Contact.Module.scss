@@ -1,0 +1,29 @@
+.wrapper7 {
+    border-top: 1px solid #faf5f5;
+}
+
+.go {
+    color: rgba(22, 24, 35, 0.5);
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 6px;
+    margin-top: 5px;
+    display: inline-block;
+
+    &:hover {
+        text-decoration: underline #848181;
+    }
+}
+
+.space {
+    margin-bottom: 4px;
+}
+
+.last {
+    color: rgba(22, 24, 35, 0.5);
+    font-weight: 700;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 5px;
+}

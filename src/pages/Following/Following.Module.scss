@@ -1,0 +1,143 @@
+.individual {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #edeaea;
+}
+
+.image-individual {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.video {
+    width: 624px;
+    margin-left: 12px;
+}
+
+.maintoast {
+    max-width: 500px;
+    display: inline-block;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+}
+
+.nick {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-right: 4px;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.nickk {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    cursor: pointer;
+    padding-top: 2px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(22, 24, 35);
+    margin-right: 4px;
+}
+
+.main-content {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(22, 24, 35);
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.dance {
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.musicc {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.music2 {
+    padding-top: 2px;
+    color: rgba(22, 24, 35, 1);
+    font-weight: 600;
+}
+
+.higuys {
+    cursor: pointer;
+}
+
+// icon
+.interact {
+    display: flex;
+    align-items: flex-end;
+}
+
+.icon-interact {
+    margin-left: 20px;
+    user-select: none;
+}
+
+.wrapper9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.iconn {
+    font-size: 20px;
+}
+
+.wrap {
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: rgba(22, 24, 35, 0.06);
+    border-radius: 50%;
+}
+
+.info-interact {
+    font-size: 10px;
+    color: rgba(22, 24, 35, 0.75);
+    line-height: 17px;
+    font-weight: bold;
+}
+
+.isActive {
+    color: rgb(254, 44, 85);
+}
+
+.isActive1 {
+    color: rgb(254, 44, 85);
+}
+
+.isActive2 {
+    color: rgb(254, 44, 85);
+}
